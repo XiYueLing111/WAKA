@@ -1,0 +1,82 @@
+﻿*{ margin:0px; padding:0px;}
+body 
+{
+    line-height:1.5;
+    font-family:微软雅黑;
+}
+a{ text-decoration:none;}
+ul,li{ list-style:none; }
+.clr{ clear:both; }
+img{ max-width:100%; vertical-align:middle; }
+.bg1{ background:url(../images/bg1.png) no-repeat top center; background-size:cover; }
+.what{ background:url(../images/bg2.png) no-repeat top center; padding-top:60px; background-size:100% auto;  }
+
+.w1400{ width:1200px; margin:0 auto; }
+
+.head{ padding:40px 0px; }
+.head .w1400{ width:1400px; margin:0 auto; }
+.head .logo{ float:left; }
+.head .nav{ float:right; }
+.head .nav a{ color:#000; font-size:20px; margin-left:30px;  }
+.head .nav a.act,.head .nav a:hover{ color:#ff6900;  }
+.banner { padding-bottom:60px; }
+.banner .bl{ float:left;  width:410px;  }
+.banner .bl h2{ font-size: 32px;
+    padding: 40px 60px 20px;   }
+.banner .bl p{ font-size: 20px;
+    padding: 10px 60px 30px;   }
+.banner .bl a{ font-size: 20px;
+    margin: 10px 60px 30px; display:block; background: #ff6900;
+    padding: 9px 20px; text-align:center; 
+    color: #fff;
+    border-radius: 20px; width:150px;   }
+.banner .br{ float:right; position:relative; }
+.banner .br .pos{ position:absolute; left:-42px; top:100px; }
+.title{ font-size:40px; text-align:center; margin-bottom:40px;  }
+
+.who{ margin-top:60px; }
+.what{ margin-top:60px; }
+.what .title{ color:#fff; }
+.what p{ color:#fff; font-size: 20px; padding: 0px 200px 0px; text-align:center; margin-bottom: 30px; }
+.why{ margin:60px 0px;  position:relative; overflow:hidden; }
+.where{ margin-top:60px; position:relative; overflow:hidden;  }
+
+.who .w1400{ width:1000px; margin:0 auto; }
+.who .wl{ float:left; position:relative; width:375px; }
+.who .wl .pos{ position:absolute; right:-60px; bottom:-50px; }
+.who .wr{ float:right; width:410px; margin-right:30px;  }
+
+.who .wr p{  font-size: 20px; 
+    margin-top: 20px;}
+.why .wl{ float:left; width:600px;}
+
+.why .wl h2{ font-size:32px; padding:60px 20px 30px; }
+.why .wl p{ font-size:20px; padding:0px 20px 0px; margin-bottom:20px; }
+.why .wr{ float:right;  width:600px; text-align:center;  }
+
+.what .pics { width:1200px; margin:0 auto; }
+.what .pics ul{ overflow:hidden; }
+.what .pics ul li{ float:left; width:32%; margin-right:2%; position:relative;  }
+.what .pics ul li img{ width:100%; }
+.what .pics ul li:last-child{ float:left; width:32%; margin-right:0px;  }
+.what .pics ul li .txt{ position:absolute; left:20px; right:20px; background:#ededed; bottom:20px; padding:10px 20px;  }
+
+.what .pics ul li .txt a{ color:#ff6900; }
+
+
+.where .wl{ background:rgba(255,105,0,0.7); width:350px; height:500px; color:#fff; }
+
+.where .wl h2{ padding:60px 20px 30px; font-size:32px;  }
+.where .wl p{ padding:0px 20px 0px; font-size:20px;  }
+.where{ background:url(../images/bg3.png) no-repeat top center;  background-size:cover;  }
+.foot{ background:#54946c; text-align:center; padding:60px 0px 00px; color:#fff;   }
+
+
+
+.foot p{ font-size:16px; text-align:center;   }
+.foot .contact { padding:40px 0px; border-bottom:1px solid #989898;  }
+
+.foot .contact a{ background:#cecece; padding:9px 20px; margin:0px 10px; color:#000; border-radius:20px;  }
+.foot p a{ font-size:18px;  color:#fff; margin:0px 20px;   }
+.foot .copy { padding:40px 0px; }
+.foot .copy p{ font-size:12px; }
